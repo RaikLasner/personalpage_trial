@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: navy;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -58,7 +58,7 @@ main .content .text {
 }
 
 footer {
-    background-color: navy;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 10px 20px;
