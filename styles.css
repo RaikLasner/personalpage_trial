@@ -67,6 +67,14 @@ main .content .photo {
     max-width: 100%;
 }
 
+main .content .quote {
+    flex: 1;
+    padding: 20px;
+    background-color: yellow;
+    color: navy;
+    font-size: 14px;
+}
+
 main .content .text {
     flex: 1;
     padding: 20px;
