@@ -18,7 +18,7 @@ header {
 
 header .content-wrapper {
     max-width: 1200px;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,8 +62,8 @@ nav {
 
 /* ham menu */
 .ham-menu {
-    height: 50px;
-    width: 40px;
+    height: 40px;
+    width: 30px;
     margin-left: auto;
     position: relative;
 }
