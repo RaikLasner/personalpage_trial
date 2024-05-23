@@ -72,12 +72,15 @@ main .content .quote {
     padding: 20px;
     background-color: yellow;
     color: navy;
-    font-size: 14px;
+    font-size: 16px;
+    font-style: italic;
 }
 
 main .content .text {
     flex: 1;
     padding: 20px;
+    font-size: 12px;
+    font-style: normal;
 }
 
 footer {
