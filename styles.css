@@ -28,6 +28,12 @@ header .logo img {
     max-height: 50px;
 }
 
+li {
+    font-weight: bold;
+    list-style-type:none;
+    text-decoration:none;
+}
+
 /* off-screen-menu */
 .off-screen-menu {
     background-color:  rgb(34, 37, 49);
