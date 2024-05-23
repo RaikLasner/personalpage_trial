@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const menuIcon = document.getElementById('menu-icon');
-    const navList = document.getElementById('nav-list');
+const hamMenu = document.querySelector(".ham-menu");
 
-    menuIcon.addEventListener('click', function() {
-        navList.classList.toggle('show');
-    });
+const offScreenMenu = document.querySelector(".off-screen-menu");
+
+hamMenu.addEventListener("click", () => {
+  hamMenu.classList.toggle("active");
+  offScreenMenu.classList.toggle("active");
 });
