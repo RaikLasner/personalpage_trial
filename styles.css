@@ -61,7 +61,7 @@ nav ul li a {
     margin: 4px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     nav ul {
         flex-direction: column;
         position: absolute;
@@ -86,7 +86,6 @@ nav ul li a {
 }
 
 main {
-    background-color: yellow;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -102,6 +101,7 @@ main .content {
 }
 
 main .content .photo {
+    border: 5px solid skyblue;
     max-width: 100%;
     margin-bottom: 20px;
 }
@@ -114,6 +114,8 @@ main .content .quote {
     font-style: italic;
     font-size: 14px;
     margin-bottom: 10px;
+    background-color: yellow;
+    padding: 10px;
 }
 
 main .content .lorem {
