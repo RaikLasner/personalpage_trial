@@ -67,7 +67,7 @@ nav ul li a {
         position: absolute;
         top: 50px;
         left: -100%;
-        background-color: black;
+        background-color: navy;
         width: 100%;
         transition: left 0.3s ease;
     }
@@ -125,7 +125,7 @@ main .content .text {
 }
 
 footer {
-    background-color: navy;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 10px 20px;
