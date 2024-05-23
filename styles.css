@@ -3,20 +3,26 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 header {
-    background-color: black;
+    background-color: navy;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     width: 100%;
+    box-sizing: border-box;
+}
+
+header .content-wrapper {
     max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
 header .logo img {
@@ -45,6 +51,8 @@ main {
     padding: 20px;
     width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 main .content {
@@ -61,34 +69,4 @@ main .content .photo {
 
 main .content .text {
     flex: 1;
-    padding: 20px;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-    width: 100%;
-    max-width: 1200px;
-}
-
-footer .social-links {
-    margin-bottom: 10px;
-}
-
-footer .social-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-@media (max-width: 768px) {
-    main .content {
-        flex-direction: column;
-    }
-
-    main .content .photo {
-        max-width: 100%;
-    }
-}
+    padding
