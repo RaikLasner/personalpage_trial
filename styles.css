@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: navy;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -69,4 +69,40 @@ main .content .photo {
 
 main .content .text {
     flex: 1;
-    padding
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer .content-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer .social-links {
+    margin-bottom: 10px;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    main .content {
+        flex-direction: column;
+    }
+
+    main .content .photo {
+        max-width: 100%;
+    }
+}
