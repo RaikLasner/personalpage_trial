@@ -29,20 +29,61 @@ header .logo img {
     max-height: 50px;
 }
 
-header nav ul {
+nav {
+    position: relative;
+}
+
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-header nav ul li {
+nav ul li {
     margin-left: 20px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: -100%;
+        background-color: navy;
+        width: 100%;
+        transition: left 0.3s ease;
+    }
+
+    nav ul.show {
+        left: 0;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+    }
 }
 
 main {
@@ -118,3 +159,6 @@ footer .social-links a {
         max-width: 100%;
     }
 }
+
+
+
