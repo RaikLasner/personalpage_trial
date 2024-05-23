@@ -12,6 +12,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 header .logo img {
@@ -38,6 +40,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 main .content {
@@ -62,6 +66,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 20px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 footer .social-links {
